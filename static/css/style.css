@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-style {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn-custom {
+  background-color: #388e3c;
+  border: none;
+  padding: 0.75rem 2.5rem;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #2e7d32;
+}
+
+.form-control:focus {
+  border-color: #66bb6a;
+  box-shadow: 0 0 0 0.2rem rgba(102, 187, 106, 0.25);
+}
+
+.result-box {
+  background-color: #e8f5e9;
+  border-left: 6px solid #43a047;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+#chart-container {
+  margin-top: 3rem;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
